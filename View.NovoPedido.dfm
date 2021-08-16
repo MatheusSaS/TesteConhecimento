@@ -28,10 +28,6 @@ object Frm_View_Pedido: TFrm_View_Pedido
     Color = 15591392
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 690
-    ExplicitTop = 8
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object Label2: TLabel
       AlignWithMargins = True
       Left = 3
@@ -66,7 +62,6 @@ object Frm_View_Pedido: TFrm_View_Pedido
       Color = clWhite
       ParentBackground = False
       TabOrder = 0
-      ExplicitLeft = 5
       DesignSize = (
         966
         153)
@@ -199,9 +194,6 @@ object Frm_View_Pedido: TFrm_View_Pedido
       Color = clWhite
       ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 165
-      ExplicitWidth = 985
-      ExplicitHeight = 460
       object DBGrid1: TDBGrid
         Left = 0
         Top = 0
@@ -266,8 +258,6 @@ object Frm_View_Pedido: TFrm_View_Pedido
       Color = 15591392
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 626
-      ExplicitWidth = 1005
       object cxImage3: TcxImage
         Left = 0
         Top = 282
@@ -381,9 +371,6 @@ object Frm_View_Pedido: TFrm_View_Pedido
       ParentBackground = False
       TabOrder = 3
       Visible = False
-      ExplicitLeft = 18
-      ExplicitTop = 191
-      ExplicitHeight = 394
       DesignSize = (
         966
         327)
@@ -714,7 +701,6 @@ object Frm_View_Pedido: TFrm_View_Pedido
       ParentBackground = False
       TabOrder = 4
       Visible = False
-      ExplicitLeft = 15
       object Label1: TLabel
         AlignWithMargins = True
         Left = 3

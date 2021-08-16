@@ -111,10 +111,8 @@ object Frm_Principal: TFrm_Principal
           Font.Style = [fsBold]
           ParentFont = False
           OnClick = BtnNovoPedidoClick
-          ExplicitLeft = 91
-          ExplicitTop = 16
-          ExplicitWidth = 150
-          ExplicitHeight = 25
+          ExplicitWidth = 98
+          ExplicitHeight = 19
         end
       end
       object PnlBorderEditBusca: TPanel

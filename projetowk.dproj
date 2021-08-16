@@ -117,11 +117,6 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Utils\Classe.Alterar.ComponentesVisuais.pas"/>
-        <DCCReference Include="test\Unit1.pas">
-            <Form>DataModule1</Form>
-            <FormType>dfm</FormType>
-            <DesignClass>TDataModule</DesignClass>
-        </DCCReference>
         <DCCReference Include="View.Configuracao.pas">
             <Form>Frm_Configuracao</Form>
             <FormType>dfm</FormType>
@@ -133,14 +128,18 @@
         <DCCReference Include="Model\Model.Conexao.Interfaces.pas"/>
         <DCCReference Include="Model\Model.Query.Firedac.pas"/>
         <DCCReference Include="Model\Model.Conexao.Firedac.pas"/>
-        <DCCReference Include="Frames\Frame.ListarCliente.pas">
+        <DCCReference Include="Frames\Frame.ListarCleinte.pas">
             <Form>Frame_ListarCliente</Form>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="Frames\Frame.ClienteSelecionado.pas">
-            <Form>Frame2</Form>
+            <Form>Frame_ClienteSelecionado</Form>
             <FormType>dfm</FormType>
             <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="View.ClienteSelecionado.pas">
+            <Form>Frm_ClienteSelecioando</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

@@ -233,9 +233,6 @@ end;
 
 procedure TFrm_View_Pedido.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
-  if Assigned(FQueryItemPedido) then
-    FreeAndNil(FQueryItemPedido);
-
   Action := caFree;
   Frm_View_Pedido := Nil;
 end;

@@ -83,7 +83,6 @@ end;
 
 procedure TFrm_Principal.ClickEvent(Sander : TObject);
 begin
-
   ShowMessage(TComponent(Sander).Name);
 end;
 
@@ -158,8 +157,6 @@ var rgn: HRGN;
 begin
   rgn := CreateRoundRectRgn(0, 0,ClientWidth,ClientHeight,20,20);
   SetWindowRgn(Handle, rgn, True);
-
-  ReportMemoryLeaksOnShutdown := true;
 
   TAlterarComponenteVisual
     .New
